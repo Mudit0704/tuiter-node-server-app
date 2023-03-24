@@ -1,0 +1,15 @@
+[{
+  "_id": 123,
+  "firstName": "Mudit",
+  "lastName": "Maheshwari",
+  "handle": "@mm07",
+  "profilePicture": "img.png",
+  "bannerPicture": "polyglot.png",
+  "bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "7th April 1998",
+  "dateJoined": "May 2009",
+  "followingCount": 340,
+  "followersCount": 223
+}]
