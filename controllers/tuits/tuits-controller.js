@@ -10,6 +10,7 @@ const createTuit = (req, res) => {
   newTuit.disliked = false;
   newTuit.replies = 0;
   newTuit.retuits = 0;
+  newTuit.time = "2h";
   tuits.push(newTuit);
   res.json(newTuit);
 }
