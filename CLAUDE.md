@@ -35,6 +35,4 @@ Note: `README.md` in this repo is leftover boilerplate from Create React App and
 
 ## Pushing
 
-- Whenever asked to push code, first run the `Code-Review-Sub-Agent` agent to review the changes being pushed.
-- If the review finds any issues, do not push — report the issues instead and wait for them to be resolved.
-- If the review finds no issues, proceed with the push.
+- The `push-review` skill (`.claude/skills/push-review/`) gates `git push` in this repo — it runs a `Code-Review-Sub-Agent` review before pushing and blocks the push if issues are found.
