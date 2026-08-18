@@ -33,8 +33,8 @@ Note: `README.md` in this repo is leftover boilerplate from Create React App and
 - Users' IDs are generated as `(new Date()).getTime() + ''` (stringified timestamp) rather than a real ID scheme — collisions are possible if two creates happen in the same millisecond. Tuits get MongoDB `ObjectId`s automatically.
 - This is an ES module project (`"type": "module"` in `package.json`) — use `import`/`export`, not `require`.
 
-## Committing
+## Pushing
 
-- Whenever asked to commit code, first run the `Code-Review-Sub-Agent` agent to review the changes being committed.
-- If the review finds any issues, do not commit — report the issues instead and wait for them to be resolved.
-- If the review finds no issues, proceed with the commit.
+- Whenever asked to push code, first run the `Code-Review-Sub-Agent` agent to review the changes being pushed.
+- If the review finds any issues, do not push — report the issues instead and wait for them to be resolved.
+- If the review finds no issues, proceed with the push.
