@@ -32,3 +32,9 @@ Note: `README.md` in this repo is leftover boilerplate from Create React App and
 - When adding a new Mongoose-backed resource, follow the tuits pattern: `*-schema.js` → `*-model.js` → `*-dao.js` → `*-controller.js`, then import and call the controller from `app.js`.
 - Users' IDs are generated as `(new Date()).getTime() + ''` (stringified timestamp) rather than a real ID scheme — collisions are possible if two creates happen in the same millisecond. Tuits get MongoDB `ObjectId`s automatically.
 - This is an ES module project (`"type": "module"` in `package.json`) — use `import`/`export`, not `require`.
+
+## Committing
+
+- Whenever asked to commit code, first run the `Code-Review-Sub-Agent` agent to review the changes being committed.
+- If the review finds any issues, do not commit — report the issues instead and wait for them to be resolved.
+- If the review finds no issues, proceed with the commit.
